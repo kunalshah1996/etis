@@ -86,8 +86,9 @@ const Help = () => (
             <a
               href="https://it.uic.edu/services-support/student-resources/ed-tech/blackboard-introduction/"
               style={{
-                color: "#d50032",
+                color: "#fff",
                 fontSize: "16px",
+                textDecoration: "underline",
               }}
             >
               Here
