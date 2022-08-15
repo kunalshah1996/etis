@@ -9,13 +9,20 @@ import image2 from "../../assets/image2.jpeg";
 const Signin = () => (
   <>
     <div className="box-field">
-      <div className="signin_box">
+      <div className="signin__box">
         <div className="signin__login">
           <div className="signin__heading">
             <h3>Blackboard</h3>
           </div>
           <div className="signin__button">
-            <button>Sign In</button>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "http://google.com";
+              }}
+            >
+              Sign In
+            </button>
           </div>
         </div>
         <div className="signin__options">

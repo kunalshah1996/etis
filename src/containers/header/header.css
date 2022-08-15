@@ -42,7 +42,7 @@
   margin-right: 50px;
 }
 
-.signin_box {
+.signin__box {
   display: flex;
   flex-direction: column;
 }
