@@ -18,7 +18,8 @@ const Signin = () => (
             <button
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "http://google.com";
+                window.location.href =
+                  "https://uic.blackboard.com/auth-saml/saml/login?apId=_150_1&redirectUrl=https%3A%2F%2Fuic.blackboard.com%2Fultra";
               }}
             >
               Sign In
