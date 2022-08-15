@@ -120,6 +120,7 @@ const DemoCarousel = () => (
         <Carousel
           showArrows={true}
           showThumbs={false}
+          interval="10000"
           infiniteLoop
           useKeyboardArrows
           autoPlay
